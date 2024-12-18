@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "wave3-docker-workshops"
+version = "0.1.0"
+description = ""
+authors = ["Stimm147 <michalczewski0@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+discord-py = "^2.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
